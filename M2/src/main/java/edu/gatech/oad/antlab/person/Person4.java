@@ -1,5 +1,7 @@
 package edu.gatech.oad.antlab.person;
 
+import java.util.Arrays;
+
 /**
  *  A simple class for person 4
  *  returns their name and a
@@ -30,6 +32,16 @@ public class Person4 {
      * @return the modified string
      */
     private String calc(String input) {
+        char[] charArray = input.toCharArray();
+
+        char[] newCharArray = new char[input.length()];
+        for (int i = 0; i < input.length(); i++) {
+            char tempChar = charArray[i];
+            int ascii = (int) tempChar + 1;
+            newCharArray[i] = (char) ascii;
+        }
+        String newString = Arrays.toString(newCharArray).replaceAll("\\[|\\]|,|\\s", "");
+        System.out.println(newString);
       //Person 4 put your implementation here
       return null;
     }
@@ -45,6 +57,7 @@ public class Person4 {
     public String toString(String input) {
       return name + calc(input);
     }
+
 
 }
 
