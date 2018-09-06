@@ -46,6 +46,6 @@ public class Person3 {
 	  for (int x = input.length(); x > 0; x--){
 	  	out += input.charAt(x - 1);
 	  }
-	  return null;
+	  return out;
 	}
 }
