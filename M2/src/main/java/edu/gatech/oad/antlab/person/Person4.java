@@ -33,7 +33,6 @@ public class Person4 {
      */
     private String calc(String input) {
         char[] charArray = input.toCharArray();
-
         char[] newCharArray = new char[input.length()];
         for (int i = 0; i < input.length(); i++) {
             char tempChar = charArray[i];
