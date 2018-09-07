@@ -48,7 +48,7 @@ public class Person3 {
 	private String calc(String input) {
 <<<<<<< HEAD
 	  String out = "";
-	  for (int x = input.length(); x > 0; x--){
+	  for (int x = input.length(); x > 0; x--) {
 	  	out += input.charAt(x - 1);
 	  }
 	  return out;
