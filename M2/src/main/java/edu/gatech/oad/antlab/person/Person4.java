@@ -40,9 +40,8 @@ public class Person4 {
             newCharArray[i] = (char) ascii;
         }
         String newString = Arrays.toString(newCharArray).replaceAll("\\[|\\]|,|\\s", "");
-        System.out.println(newString);
       //Person 4 put your implementation here
-      return null;
+      return newString;
     }
     
     /**
