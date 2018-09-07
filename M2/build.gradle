@@ -3,10 +3,10 @@ apply plugin: 'java'
 jar {
     manifest {
         attributes ("Main-Class" : "edu.gatech.oad.antlab.pkg1.AntLabMain",
-                   "ClassPath": "../../lib/resouces.jar")
+                   "ClassPath": "../..lib/resouces.jar")
     }
 }
 
 dependencies {
-    compile files('lib/resouces.jar')
+    compile files('./lib/resouces.jar')
 }
