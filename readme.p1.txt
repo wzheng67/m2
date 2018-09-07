@@ -1,2 +1,2 @@
-Name: Taewon Kong
-Email: tkong9@gatech.edu
+Name : Soo Ah Moon
+Email : sooahmoon98@gmail.com
